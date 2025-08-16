@@ -54,9 +54,3 @@ This app allows practicing and creating MCQ questions in areas such as:
 - 🌐 Covers multiple computer science domains  
 
 ---
-
-## 🛠️ Installation
-Clone the repository:
-```bash
-git clone https://github.com/devsWithRafi/Python-MCQ-Question-Genaretor.git
-cd Python-MCQ-Question-Genaretor
