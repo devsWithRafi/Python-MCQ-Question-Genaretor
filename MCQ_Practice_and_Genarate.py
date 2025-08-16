@@ -8,6 +8,7 @@ Questions = [
         {'option':'C', 'text':'Open Object Protocol', 'answer': False},
         {'option':'D', 'text':'Optional Oriented Process', 'answer': False},
     ]},
+    
     {'Ques':'Which of the following is used for styling web pages?', 
     'options':[
         {'option':'A', 'text':'HTML', 'answer': False},
@@ -15,6 +16,7 @@ Questions = [
         {'option':'C', 'text':'JavaScript', 'answer': False},
         {'option':'D', 'text':'SQL', 'answer': False},
     ]},
+    
     {'Ques':'In React.js, which hook is commonly used for managing state?',
     'options':[
         {'option':'A', 'text':'useState', 'answer': True},
@@ -22,6 +24,7 @@ Questions = [
         {'option':'C', 'text':'useStyle', 'answer': False},
         {'option':'D', 'text':'useMap', 'answer': False},
     ]},
+    
     {'Ques':'Which SQL command is used to retrieve data from a database?', 
     'options':[
         {'option':'A', 'text':'INSERT', 'answer': False},
@@ -29,6 +32,7 @@ Questions = [
         {'option':'C', 'text':'SELECT', 'answer': True},
         {'option':'D', 'text':'UPDATE', 'answer': False},
     ]},
+    
     {'Ques':'Which of the following is a NoSQL database?', 
     'options':[
         {'option':'A', 'text':'MySQL', 'answer': False},
@@ -36,6 +40,7 @@ Questions = [
         {'option':'C', 'text':'MongoDB', 'answer': True},
         {'option':'D', 'text':'Oracle', 'answer': False},
     ]},
+    
     {'Ques':'Which protocol is primarily used for client-server communication on the web?', 
     'options':[
         {'option':'A', 'text':'FTP', 'answer': False},
@@ -43,6 +48,7 @@ Questions = [
         {'option':'C', 'text':'HTTP', 'answer': True},
         {'option':'D', 'text':'SSH', 'answer': False},
     ]},
+    
     {'Ques':'In the Software Development Life Cycle (SDLC), which phase comes first?', 
     'options':[
         {'option':'A', 'text':'Testing', 'answer': False},
@@ -50,6 +56,7 @@ Questions = [
         {'option':'C', 'text':'Planning/Requirement Analysis', 'answer': True},
         {'option':'D', 'text':'Deployment', 'answer': False},
     ]},
+    
     {'Ques':'Agile methodology mainly focuses on:', 
     'options':[
         {'option':'A', 'text':'Strict documentation', 'answer': False},
@@ -168,3 +175,4 @@ while True:
     elif take_user_options == '4': delete_question()
     elif take_user_options == '0': print("Game Exited, Byee!"), exit()
     else: print(f"⚠ '{take_user_options}' Command Not Found!")
+
